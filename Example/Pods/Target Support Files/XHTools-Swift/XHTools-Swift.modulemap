@@ -1,0 +1,6 @@
+framework module XHTools_Swift {
+  umbrella header "XHTools-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

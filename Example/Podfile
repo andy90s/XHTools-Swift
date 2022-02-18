@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XHTools-Swift_Example' do
+  pod 'XHTools-Swift', :path => '../'
+  pod 'Alamofire'
+  target 'XHTools-Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

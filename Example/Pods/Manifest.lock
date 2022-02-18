@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.9.1)
+  - XHTools-Swift (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - XHTools-Swift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  XHTools-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  XHTools-Swift: 786dbdd14c9ac75b7e887be4e56768ee1d242315
+
+PODFILE CHECKSUM: 9fa4faa9b49039eca4a3b144cea021a53932c30e
+
+COCOAPODS: 1.11.2
