@@ -32,6 +32,15 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XHTools-Swift/Classes/**/*'
   
+  ## 通用依赖;
+  s.dependency 'RxSwift','~> 6.5.0'
+  s.dependency 'RxCocoa','~> 6.5.0'
+  s.dependency 'HandyJSON','~> 5.0.2'
+  s.dependency 'SnapKit','~> 4.2.0'
+  s.dependency 'SVProgressHUD','~> 2.2.5'
+  s.dependency 'Alamofire','~> 4.9.1'
+  s.dependency 'SDWebImage','~> 5.12.3'
+  
   # s.resource_bundles = {
   #   'XHTools-Swift' => ['XHTools-Swift/Assets/*.png']
   # }
@@ -40,3 +49,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+
+# 使用方式:  pod repo push  XHModuleRepo
+# source 'https://gitee.com/andy90s/xhmodulerepo.git'

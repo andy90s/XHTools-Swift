@@ -1,17 +1,39 @@
 PODS:
   - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
   - SnapKit (4.2.0)
-  - XHTools-Swift (0.1.0)
+  - SVProgressHUD (2.2.5)
+  - XHTools-Swift (0.0.1):
+    - Alamofire (~> 4.9.1)
+    - HandyJSON (~> 5.0.2)
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+    - SDWebImage (~> 5.12.3)
+    - SnapKit (~> 4.2.0)
+    - SVProgressHUD (~> 2.2.5)
 
 DEPENDENCIES:
-  - Alamofire
-  - SnapKit
   - XHTools-Swift (from `../`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - HandyJSON
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
     - SnapKit
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   XHTools-Swift:
@@ -19,9 +41,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  XHTools-Swift: 786dbdd14c9ac75b7e887be4e56768ee1d242315
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XHTools-Swift: e047a6fa8a214019f41284912e9f72dc1827e48f
 
-PODFILE CHECKSUM: ed2a0d23393cbc3a12b970042cd372d528819047
+PODFILE CHECKSUM: fb7e3bc76b150c1ae94b86806e80f225236c942b
 
 COCOAPODS: 1.11.2

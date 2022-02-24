@@ -1,9 +1,9 @@
 {
   "name": "XHTools-Swift",
-  "version": "0.1.0",
-  "summary": "A short description of XHTools-Swift.",
+  "version": "0.0.1",
+  "summary": "自用工具组件库",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xhliang/XHTools-Swift",
+  "homepage": "https://github.com/andy90s/XHTools-Swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,36 @@
     "xhliang": "909901234@qq.com"
   },
   "source": {
-    "git": "https://github.com/xhliang/XHTools-Swift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/andy90s/XHTools-Swift.git",
+    "tag": "0.0.1"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XHTools-Swift/Classes/**/*"
+  "source_files": "XHTools-Swift/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 6.5.0"
+    ],
+    "RxCocoa": [
+      "~> 6.5.0"
+    ],
+    "HandyJSON": [
+      "~> 5.0.2"
+    ],
+    "SnapKit": [
+      "~> 4.2.0"
+    ],
+    "SVProgressHUD": [
+      "~> 2.2.5"
+    ],
+    "Alamofire": [
+      "~> 4.9.1"
+    ],
+    "SDWebImage": [
+      "~> 5.12.3"
+    ]
+  },
+  "swift_version": "5.0"
 }
